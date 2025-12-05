@@ -1,5 +1,7 @@
 package boletinarrays;
 
+import java.util.Arrays;
+
 public class Ejercicio01 {
 	public static void main(String[] args) {
 
@@ -12,9 +14,7 @@ public class Ejercicio01 {
 		}
 		
 		// Muestra el contenido de la tabla en pantalla.
-		for (int i = 0; i < tabla.length; i++) {
-			System.out.println("Elemento en la posición " + i + ": " + tabla[i]);
-		}
+		System.out.println(Arrays.toString(tabla));
 		
 	}
 }
