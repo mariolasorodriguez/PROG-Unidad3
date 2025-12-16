@@ -14,6 +14,7 @@ public class Ejercicio01 {
 		}
 		
 		// Muestra el contenido de la tabla en pantalla.
+		System.out.println("Contenido de la tabla: ");
 		System.out.println(Arrays.toString(tabla));
 		
 	}
