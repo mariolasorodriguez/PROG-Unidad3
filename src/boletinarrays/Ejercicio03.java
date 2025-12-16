@@ -1,7 +1,5 @@
 package boletinarrays;
 
-import java.util.Arrays;
-
 import java.util.Scanner;
 
 public class Ejercicio03 {
@@ -19,9 +17,12 @@ public class Ejercicio03 {
 			numeros[i] = reader.nextInt();
 		}
 		
-		// Mostrar los numeros en orden inverso (FALTA ARREGLAR)
-		Arrays.sort(numeros);
-		System.out.println("Numeros en orden inverso:" + Arrays.toString(numeros));
+		System.out.println("Numeros a la inversa:");
+		// Mostrar los numeros en orden inverso
+		for (int i = numeros.length - 1; i >= 0; i--) {
+			System.out.print(numeros[i] + " ");
+		}
+		
 		
 		// Cerrar el scanner
 		reader.close();
