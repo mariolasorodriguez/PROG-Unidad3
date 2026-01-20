@@ -32,5 +32,8 @@ public class Ejercicio01 {
 		System.out.println("--- ARRAY ---");
 		System.out.println(Arrays.toString(numeros));
 		
+		// Cerramos el scanner
+		reader.close();
+		
 	}
 }
