@@ -1,4 +1,4 @@
-package boletinfuncionesbidimensionales;
+package boletin4;
 
 /**
  * Ejercicio 2

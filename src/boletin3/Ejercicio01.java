@@ -1,4 +1,4 @@
-package boletinarraysbidimensionales;
+package boletin3;
 
 public class Ejercicio01 {
 

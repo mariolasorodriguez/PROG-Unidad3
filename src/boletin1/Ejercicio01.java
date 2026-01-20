@@ -1,4 +1,4 @@
-package boletinarrays;
+package boletin1;
 
 import java.util.Arrays;
 
