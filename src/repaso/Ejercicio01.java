@@ -9,7 +9,7 @@ public class Ejercicio01 {
 		Scanner reader = new Scanner(System.in);
 		
 		// Pedimos al usuario que introduzca una frase
-		System.out.println("Introduce una frase:");
+		System.out.print("Introduce una frase: ");
 		String frase = reader.nextLine();
 		
 		// Obtenemos las palabras de la frase
