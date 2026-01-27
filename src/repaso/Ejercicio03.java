@@ -10,8 +10,6 @@ public class Ejercicio03 {
 		String[] encontradas = palabrasEncontradas(texto, claves);
 		
 		mostrarResultado(encontradas);
-		
-		
 	}
 	
 	/*
@@ -26,6 +24,12 @@ public class Ejercicio03 {
 		return textoMinus.contains(palabraMinus);
 	}
 	
+	/*
+	 * @param Función que busca las palabras clave en el texto
+	 * String texto (El texto donde buscar)
+	 * String[] claves (Array de palabras clave a buscar)
+	 * @return Array con las palabras encontradas
+	 */
 	static String[] palabrasEncontradas(String texto, String[] claves) {
 		int contador = 0;
 		for (int i = 0; i < claves.length; i++) {
@@ -48,13 +52,17 @@ public class Ejercicio03 {
 		return resultado;
 	}
 	
+	/*
+	 * @param Función que muestra el resultado por pantalla
+	 * String[] encontradas (Array con las palabras encontradas)
+	 */
 	static void mostrarResultado(String[] encontradas) {
 		if (encontradas.length == 0) {
 			System.out.println("No se han encontrado palabras clave en el texto");
 		} else {
 			System.out.println("Palabras encontradas: ");
 			for (int i = 0; i < encontradas.length ; i++) {
-				System.out.print(encontradas[i]);
+				System.out.print(String.join(", " , encontradas));
 				if (i < encontradas.length - 1) {
 					System.out.print(", ");
 				}
