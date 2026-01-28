@@ -9,14 +9,14 @@ public class arraybasico {
 
 		int[] numeros = new int[1000];
 
-		int numeroactual = 1;
+		int numeroactual = 4;
 
 		for (int i = 0; i < 1000; i++) {
 			numeros[i] = numeroactual;
 			numeroactual++;
 		}
 
-		System.out.println(Arrays.toString(numeros));
+		System.out.println("El número está en el indice: " + Arrays.binarySearch(numeros, 12));
 
 	}
 }
